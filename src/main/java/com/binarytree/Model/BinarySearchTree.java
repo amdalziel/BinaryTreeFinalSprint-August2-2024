@@ -2,6 +2,8 @@ package com.binarytree.Model;
 
 import jakarta.persistence.*;
 
+import java.util.List;
+
 @Entity
 public class BinarySearchTree {
 
@@ -12,6 +14,10 @@ public class BinarySearchTree {
 
     @OneToOne(cascade = CascadeType.ALL)
     private BinaryNode root;
+
+    @ElementCollection
+    private List<Integer> userNumber;
+
 
     public BinarySearchTree() {};
 
@@ -33,6 +39,14 @@ public class BinarySearchTree {
 
     public void setRoot(BinaryNode root) {
         this.root = root;
+    }
+
+    public List<Integer> getUserNumber() {
+        return userNumber;
+    }
+
+    public void setUserNumber(List<Integer> userNumber) {
+        this.userNumber = userNumber;
     }
 
     public void insert(int value) {

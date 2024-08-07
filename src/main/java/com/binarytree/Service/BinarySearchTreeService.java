@@ -7,7 +7,6 @@ import com.binarytree.Repository.BinarySearchTreeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -28,6 +27,8 @@ public class BinarySearchTreeService {
         for (int i = 0; i < userNumbers.size(); i++) {
             newBST.insert(userNumbers.get(i));
         }
+
+      newBST.setUserNumber(userNumbers);
 
         saveNodes(newBST.getRoot());
 

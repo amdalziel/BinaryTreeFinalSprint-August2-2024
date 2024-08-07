@@ -18,6 +18,8 @@ public class BinarySearchTreeController {
     @Autowired
     private BinarySearchTreeService binarySearchTreeService;
 
+
+
     @GetMapping("/enter-numbers")
     public String getHomeResponse() {
         return "index";
@@ -46,6 +48,7 @@ public class BinarySearchTreeController {
                 .collect(Collectors.toList());
 
         binarySearchTreeService.addBinarySearchTree(nodeList);
+
 
         return new RedirectView("/show-result");
     }
