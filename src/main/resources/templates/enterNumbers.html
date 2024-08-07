@@ -8,11 +8,19 @@
 </head>
 <body>
 
-<h1 id="enterNumbers-h1">Binary Tree Generator</h1>
+<div class="nav-bar">
+    <h1 id="home-h1">Binary Search Tree Generator</h1>
+    <form action="/" method="get">
+        <button class="return-home-button" type="submit">HOME</button>
+    </form>
+</div>
 
 <form action="/process-numbers" method="post">
-    <label for="nodeValues">Enter Node Values (comma-separated):</label>
-    <input type="text" id="nodeValues" name="nodeValues" placeholder="e.g., 10, 30, 50, 100, 70" />
+    <label id="nodeValuesLabel" for="nodeValues">Enter Node Values (comma-separated):</label>
+    <input type="text" id="nodeValues" name="nodeValues"
+           placeholder="e.g., 10, 30, 50, 100, 70"
+           pattern="^[0-9, ]*$"
+           title="Numbers (comma-separated) only."/>
     <button type="submit">Submit</button>
 </form>
 

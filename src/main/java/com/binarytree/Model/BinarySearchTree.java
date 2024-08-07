@@ -97,24 +97,12 @@ public class BinarySearchTree {
 
     @Override
     public String toString() {
-        return "BinarySearchTree{" + "\n" +
-                "root=" + root + "\n" +
+        return "{" + "\n" +
+                "\"root\": " + root + "\n" +
                 '}';
     }
 
     public static void main(String[] args) {
 
-        BinarySearchTree tree = new BinarySearchTree();
-
-        // Inserting nodes
-        tree.insert(50);
-        tree.insert(10);
-        tree.insert(20);
-        tree.insert(5);
-        tree.insert(70);
-        tree.insert(60);
-        tree.insert(80);
-
-        tree.preorder();
     }
 }

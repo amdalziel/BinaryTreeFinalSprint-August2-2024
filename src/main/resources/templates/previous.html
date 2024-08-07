@@ -7,13 +7,20 @@
 </head>
 <body>
 
-<h1 id="previousTrees-h1">Previous Trees</h1>
+<div class="nav-bar">
+    <h1 id="home-h1">Previous Trees</h1>
+    <form action="/" method="get">
+        <button class="return-home-button" type="submit">HOME</button>
+    </form>
+</div>
 
 <div id="trees-container">
     <div class="tree-card" th:each="tree : ${previousBST}">
-        <h2>Tree ID: <span th:text="${tree.id}">ID</span></h2>
-        <p><strong>Root:</strong> <span th:text="${tree.root}">Root</span></p>
-        <p><strong>User Numbers:</strong> <span th:text="${tree.userNumberString}">User Numbers</span></p>
+        <h3>ID: <span th:text="${tree.id}">ID</span></h3>
+        <p><strong>User Numbers: </strong> <span th:text="${tree.userNumberString}">User Numbers</span></p>
+        <p><strong>Binary Search Tree: </strong></p>
+        <pre th:text="${tree}"></pre>
+
     </div>
 </div>
 

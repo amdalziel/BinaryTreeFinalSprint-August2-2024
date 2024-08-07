@@ -54,10 +54,12 @@ public class BinaryNode {
 
     @Override
     public String toString() {
-        return "{ value=" + value + "\n" +
-                ", left=" + left + "\n" +
-                ", right=" + right + "\n" +
-                '}';
+        return "{ " + "\n" +
+                "\s\s\"value\": " + value + ", \n" +
+                "\s\s\"left\": " + left + ", \n" +
+                "\s\s\"right\": " + right + "\n" +
+                "}";
     }
+
 
 }

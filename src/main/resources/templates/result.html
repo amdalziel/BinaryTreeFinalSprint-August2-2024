@@ -8,6 +8,15 @@
 </head>
 <body>
 
+<div class="nav-bar">
+    <h1 id="home-h1">Success!</h1>
+    <form action="/" method="get">
+        <button class="return-home-button" type="submit">HOME</button>
+    </form>
+</div>
+
+<h2>Your tree has been saved with an ID of <span th:text="${BST.id}"></span></h2>
+
 
 <pre th:text="${BST}"></pre>
 
