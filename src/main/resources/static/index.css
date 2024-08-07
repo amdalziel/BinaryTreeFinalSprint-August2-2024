@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(101, 166, 3, 0.1);
+}
+
+#home-h1 {
+    background-color: #2E5902;
+    color: #ffffff;
+    padding: 20px 20px;
+}
+
+#enterNumbers-h1 {
+     background-color: #2E5902;
+     color: #ffffff;
+     padding: 20px 20px;
+ }
+
+ #previousTrees-h1{
+      background-color: #2E5902;
+      color: #ffffff;
+      padding: 20px 20px;
+ }
+
+#home-buttons {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+#home-buttons button {
+margin: 20px;
+border: 2px solid #2E5902;
+border-radius: 20px;
+padding: 20px 10px;
+background-color: #ffffff;
+font-size: 24px;
+font-weight: 700;
+cursor: pointer;
+}

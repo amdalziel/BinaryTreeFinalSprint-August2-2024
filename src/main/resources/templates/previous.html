@@ -2,27 +2,20 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Previous</title>
+    <title>Previous Trees</title>
+    <link rel="stylesheet" type="text/css" href="/index.css">
 </head>
 <body>
 
+<h1 id="previousTrees-h1">Previous Trees</h1>
 
-<table>
-    <thead>
-    <tr>
-        <th>ID</th>
-        <th>Root</th>
-        <th>User Numbers</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr th:each="tree : ${previousBST}">
-        <td th:text="${tree.id}">ID</td>
-        <td th:text="${tree.root}">Root</td>
-        <td th:text="${tree.userNumberString}">User Numbers</td>
-    </tr>
-    </tbody>
-</table>
+<div id="trees-container">
+    <div class="tree-card" th:each="tree : ${previousBST}">
+        <h2>Tree ID: <span th:text="${tree.id}">ID</span></h2>
+        <p><strong>Root:</strong> <span th:text="${tree.root}">Root</span></p>
+        <p><strong>User Numbers:</strong> <span th:text="${tree.userNumberString}">User Numbers</span></p>
+    </div>
+</div>
 
 </body>
 </html>
