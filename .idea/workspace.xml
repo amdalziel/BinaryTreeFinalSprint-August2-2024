@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6744d874-50ff-4f20-ac16-79113efda2a1" name="Changes" comment="Basic CSS added to functionalities.">
+    <list default="true" id="6744d874-50ff-4f20-ac16-79113efda2a1" name="Changes" comment="Input has validation. CSS added throughout.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/binarytree/Model/BinaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binarytree/Model/BinaryNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/binarytree/Model/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binarytree/Model/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/result.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/enterNumbers.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/enterNumbers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/previous.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/previous.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/result.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722999621371</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Input has validation. CSS added throughout.">
+      <option name="closed" value="true" />
+      <created>1723073707449</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723073707449</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -144,6 +144,7 @@
     <MESSAGE value="All functionalities working." />
     <MESSAGE value="Home Page added." />
     <MESSAGE value="Basic CSS added to functionalities." />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic CSS added to functionalities." />
+    <MESSAGE value="Input has validation. CSS added throughout." />
+    <option name="LAST_COMMIT_MESSAGE" value="Input has validation. CSS added throughout." />
   </component>
 </project>
