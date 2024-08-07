@@ -51,12 +51,13 @@ public class BinaryNode {
         this.right = right;
     }
 
+
     @Override
     public String toString() {
-        return "BinaryNode{" +
-                ", value=" + value +
-                ", left=" + left +
-                ", right=" + right +
+        return "{ value=" + value + "\n" +
+                ", left=" + left + "\n" +
+                ", right=" + right + "\n" +
                 '}';
     }
+
 }

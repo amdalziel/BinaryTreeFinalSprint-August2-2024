@@ -67,8 +67,8 @@ public class BinarySearchTree {
 
     @Override
     public String toString() {
-        return "BinarySearchTree{" +
-                ", root=" + root +
+        return "BinarySearchTree{" + "\n" +
+                "root=" + root + "\n" +
                 '}';
     }
 

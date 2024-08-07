@@ -4,26 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6744d874-50ff-4f20-ac16-79113efda2a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binarytree/Controller/BinarySearchTreeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binarytree/Model/BinaryNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binarytree/Model/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binarytree/RESTServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binarytree/Repository/BinaryNodeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binarytree/Repository/BinarySearchTreeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/binarytree/Service/BinarySearchTreeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/result.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/result.html" afterDir="false" />
+    <list default="true" id="6744d874-50ff-4f20-ac16-79113efda2a1" name="Changes" comment="Project working - gives user the tree entered.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/binarytree/Model/BinaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binarytree/Model/BinaryNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/binarytree/Model/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binarytree/Model/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/result.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +80,19 @@
       <option name="presentableId" value="Default" />
       <updated>1722989076515</updated>
     </task>
+    <task id="LOCAL-00001" summary="Project working - gives user the tree entered.">
+      <option name="closed" value="true" />
+      <created>1722991584316</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722991584316</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project working - gives user the tree entered." />
+    <option name="LAST_COMMIT_MESSAGE" value="Project working - gives user the tree entered." />
   </component>
 </project>
