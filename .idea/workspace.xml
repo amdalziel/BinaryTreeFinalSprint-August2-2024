@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6744d874-50ff-4f20-ac16-79113efda2a1" name="Changes" comment="User Numbers now stored in join database table.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/previous.html" afterDir="false" />
+    <list default="true" id="6744d874-50ff-4f20-ac16-79113efda2a1" name="Changes" comment="All functionalities working.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/enterNumbers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/binarytree/Controller/BinarySearchTreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binarytree/Controller/BinarySearchTreeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/binarytree/Model/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binarytree/Model/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,13 +104,22 @@
       <option name="project" value="LOCAL" />
       <updated>1722994983268</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="All functionalities working.">
+      <option name="closed" value="true" />
+      <created>1722996097683</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722996097683</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project working - gives user the tree entered." />
     <MESSAGE value="Single tree response working in HTML (result.html)" />
     <MESSAGE value="User Numbers now stored in join database table." />
-    <option name="LAST_COMMIT_MESSAGE" value="User Numbers now stored in join database table." />
+    <MESSAGE value="All functionalities working." />
+    <option name="LAST_COMMIT_MESSAGE" value="All functionalities working." />
   </component>
 </project>

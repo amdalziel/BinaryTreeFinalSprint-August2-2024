@@ -2,20 +2,21 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>Home Page</title>
 </head>
 <body>
 
-<h1>Binary Tree Generator</h1>
+<h1>Binary Tree Application</h1>
 
-<form action="/process-numbers" method="post">
-    <label for="nodeValues">Enter Node Values (comma-separated):</label>
-    <input type="text" id="nodeValues" name="nodeValues" placeholder="e.g., 10, 30, 50, 100, 70" />
-    <button type="submit">Submit</button>
+
+<form action="/enter-numbers" method="get">
+    <button type="submit">Generate New Tree</button>
 </form>
 
 
+<form action="/previous-trees" method="get">
+    <button type="submit">Get All Previous Trees</button>
+</form>
 
 
 </body>

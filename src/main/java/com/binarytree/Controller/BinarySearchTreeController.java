@@ -19,10 +19,14 @@ public class BinarySearchTreeController {
     private BinarySearchTreeService binarySearchTreeService;
 
 
+    @GetMapping("/")
+    public String getHomePage(){
+        return "index";
+    }
 
     @GetMapping("/enter-numbers")
     public String getHomeResponse() {
-        return "index";
+        return "enterNumbers";
     }
 
     @GetMapping("/show-result")
