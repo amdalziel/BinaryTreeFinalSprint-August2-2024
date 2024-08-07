@@ -19,6 +19,10 @@ public class BinarySearchTree {
     private List<Integer> userNumber;
 
 
+    @Transient
+    private String userNumberString;
+
+
     public BinarySearchTree() {};
 
     public BinarySearchTree(BinaryNode root) {
@@ -48,6 +52,18 @@ public class BinarySearchTree {
     public void setUserNumber(List<Integer> userNumber) {
         this.userNumber = userNumber;
     }
+
+    public String getUserNumberString() {
+        return userNumberString;
+    }
+
+    public void setUserNumberString(String userNumberString) {
+        this.userNumberString = userNumberString;
+    }
+
+
+
+
 
     public void insert(int value) {
         root = insertRecursion(root, value);

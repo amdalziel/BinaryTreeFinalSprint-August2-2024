@@ -32,12 +32,24 @@ public class BinarySearchTreeController {
         return "result";
     }
 
-    @GetMapping("/binarySearchTrees")
-    public List<BinarySearchTree> getAllBinarySearchTrees(){
+    @GetMapping("/previous-trees")
+    public String getPreviousTrees(Model model) {
+        List<BinarySearchTree> previousBST = binarySearchTreeService.getAllBinarySearchTrees();
+        for (BinarySearchTree tree : previousBST) {
+            List<Integer> userNumbers = tree.getUserNumber();
+            if (userNumbers != null) {
+                String userNumbersStr = userNumbers.stream()
+                        .map(String::valueOf)
+                        .collect(Collectors.joining(", "));
+                tree.setUserNumberString(userNumbersStr);
+            }
+        }
 
-        return binarySearchTreeService.getAllBinarySearchTrees();
+        model.addAttribute("previousBST", previousBST);
+        return "previous";
 
     }
+
 
     @PostMapping("/process-numbers")
     public RedirectView processNumbers(@RequestParam("nodeValues") String nodeValues) {

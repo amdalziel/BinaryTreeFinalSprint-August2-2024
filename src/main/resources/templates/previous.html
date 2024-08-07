@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Previous</title>
+</head>
+<body>
+
+
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Root</th>
+        <th>User Numbers</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="tree : ${previousBST}">
+        <td th:text="${tree.id}">ID</td>
+        <td th:text="${tree.root}">Root</td>
+        <td th:text="${tree.userNumberString}">User Numbers</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

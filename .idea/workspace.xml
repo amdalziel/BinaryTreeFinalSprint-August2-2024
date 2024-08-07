@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6744d874-50ff-4f20-ac16-79113efda2a1" name="Changes" comment="Single tree response working in HTML (result.html)">
+    <list default="true" id="6744d874-50ff-4f20-ac16-79113efda2a1" name="Changes" comment="User Numbers now stored in join database table.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/previous.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/binarytree/Controller/BinarySearchTreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binarytree/Controller/BinarySearchTreeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/binarytree/Model/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binarytree/Model/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/binarytree/Service/BinarySearchTreeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binarytree/Service/BinarySearchTreeService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -96,12 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1722992514486</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="User Numbers now stored in join database table.">
+      <option name="closed" value="true" />
+      <created>1722994983268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722994983268</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project working - gives user the tree entered." />
     <MESSAGE value="Single tree response working in HTML (result.html)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Single tree response working in HTML (result.html)" />
+    <MESSAGE value="User Numbers now stored in join database table." />
+    <option name="LAST_COMMIT_MESSAGE" value="User Numbers now stored in join database table." />
   </component>
 </project>
