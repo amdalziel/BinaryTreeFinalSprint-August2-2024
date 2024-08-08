@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6744d874-50ff-4f20-ac16-79113efda2a1" name="Changes" comment="Input has validation. CSS added throughout.">
+    <list default="true" id="6744d874-50ff-4f20-ac16-79113efda2a1" name="Changes" comment="Further validation added.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BinarySearchTreeControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/enterNumbers.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/enterNumbers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,6 +39,8 @@
   "keyToString": {
     "Application.RESTServiceApplication.executor": "Debug",
     "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.BinarySearchTreeControllerTest.executor": "Debug",
+    "JUnit.BinarySearchTreeControllerTest.testProcessNumbers.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
@@ -49,7 +52,7 @@
       <recent name="com.binarytree" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BinarySearchTreeControllerTest">
     <configuration name="RESTServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.binarytree.RESTServiceApplication" />
       <module name="BinaryTreeFinalSprint-August2-2024" />
@@ -63,8 +66,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BinarySearchTreeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinaryTreeFinalSprint-August2-2024" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTreeControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTreeControllerTest.testProcessNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinaryTreeFinalSprint-August2-2024" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTreeControllerTest" />
+      <option name="METHOD_NAME" value="testProcessNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinarySearchTreeControllerTest" />
+        <item itemvalue="JUnit.BinarySearchTreeControllerTest.testProcessNumbers" />
         <item itemvalue="Application.RESTServiceApplication" />
       </list>
     </recent_temporary>
@@ -134,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723073707449</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Further validation added.">
+      <option name="closed" value="true" />
+      <created>1723074034853</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723074034853</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,6 +177,7 @@
     <MESSAGE value="Home Page added." />
     <MESSAGE value="Basic CSS added to functionalities." />
     <MESSAGE value="Input has validation. CSS added throughout." />
-    <option name="LAST_COMMIT_MESSAGE" value="Input has validation. CSS added throughout." />
+    <MESSAGE value="Further validation added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Further validation added." />
   </component>
 </project>
